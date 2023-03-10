@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;700;800&display=swap" rel="stylesheet">
+    <title>MikroMakro</title>
+    <link rel="icon" type="image/x-icon" href="maliLogo.png">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/2a1ef8eee6.js" crossorigin="anonymous"></script>
+</head>
+<header>
+    <div class="info">
+        <h4 class="infoo">+381644623261 | Isporuka: Beograd  | zakula99@gmail.com</h4>
+    </div>
+    <nav class="">
+        <img src="logo.png">
+        <a href=""><img class="hamburger" src="hamburger.png"></a>
+        <ul>
+            <li><a href="#">MIKRO MAKRO</a></li>
+            <li><a href="#">PROIZVODI</a></li>
+            <li><a href="#">SARADNJA</a></li>
+            <li><a href="#">KONTAKT</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+
+    <div class="animacija">
+        <div class="tekst">
+            MALE biljke<br>
+            OGROMAN efekat
+        </div>
+    </div>
+    <section class="prviSection">
+        <div class="first">
+            <p>NAŠE MIKROBILJE <br>
+            NA VAŠEM STOLU</p>
+            <button>POGLEDAJ VIŠE</button>
+        </div>
+        <div class="second">
+            
+        </div>
+    </section>
+    <section class="drugiSection">
+        <div class="info1">
+            <div class="sadrzajInfo">
+                <h1>TRGOVINSKI LANCI</h1>
+                <p>Naši proizvodi prisutni su u trgovinskim lancima koji žele da ponude svojim potrošačima organsku hranu najvišeg kvaliteta.</p>
+                <a href="">OPŠIRNIJE</a>
+            </div>
+        </div>
+        <div class="info2">
+            <div class="sadrzajInfo">
+                <h1>RESTORANI</h1>
+                <p>Radimo sa preko sto restorana širom Beograda. Osmeh naših šefova su naša najbolja referenca.</p>
+                <a href="">OPŠIRNIJE</a>
+            </div>
+        </div>
+        <div class="info3">
+            <div class="sadrzajInfo">
+                <h1>FIZIČKA LICA</h1>
+                <p>Naše mušterije su mame, bake, gastronomi, kulinari, ponosimo se činjenicom da smo deo trpeze mnogih domaćinstava.</p>
+                <a href="">OPŠIRNIJE</a>
+            </div>
+        </div>
+    </section>
+    <section class="treciSection">
+        <div class="naslovSection">
+                <h1>GRADSKA FARMA SUPERHRANE</h1>
+                <p>Naručite naše proizvode online</p>
+        </div>
+        <div class="kontentSection">
+            <div class="element1">
+                <img src="slika1.JPG">
+                <p class="n">Mikrobilje</p>
+                <h1>MIKRO ROTKVICA</h1>
+                <p class="d">RSD 400.00</p>
+                <button>DODAJ U KORPU</button>
+            </div>
+            <div class="element2">
+                <img src="slika2.JPG">
+                <p class="n">Mikrobilje</p>
+                <h1>DRAGOLJUB LISTOVI</h1>
+                <p class="d">RSD 600.00</p>
+                <button>DODAJ U KORPU</button>
+            </div>
+            <div class="element3">
+                <img src="slika3.JPG">
+                <p class="n">Mikrobilje</p>
+                <h1>VENA SALATA (KISELJAK)</h1>
+                <p class="d">RSD 600.00</p>
+                <button>DODAJ U KORPU</button>
+            </div>
+        </div>
+        <div class="dugmeSection">
+            <button class="dugmeProizvodi">SVI PROIZVODI</button>
+        </div>
+
+    </section>
+    <footer>
+        <div class="prava">
+            <p>Mikor Makro 2023.  © Sva prava zadržana.</p>
+        </div>
+        <div class="kontaktInfo">
+            <h2>KONTAKT</h2>
+            <p>+381 64 462 32 61 Beograd</p>
+            <p>mikromakro@gmail.com www.mikromakro.com</p>
+        </div>
+        <div class="vremeInfo">
+            <h2>RADNO VREME</h2>
+            <p>Ponedeljak - Subota: 9.00 - 17.00h Nedeljom ne radimo</p>
+            <div class="linkovi">
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+
+        <div class="prava1">
+            <p>Mikor Makro 2023.  © Sva prava zadržana.</p>
+        </div>
+        
+
+    </footer>
+
+
+    
+    
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var meni = document.querySelector("nav");
+            meni.classList.toggle("sticky", window.scrollY > 0);
+        })
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}
+
+            slides[slideIndex-1].style.display = "block";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+        // var lastScrollTop = 0;
+        // info = document.getElementsByClassName("info");
+        // meni = document.getElementsByClassName("meni");
+        // wondow.addEventListener("scroll", function(){
+        //     var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        //     if(scrollTop > lastScrollTop){
+        //         info.style.top="-80px";
+        //         meni.style.top="0px";
+        //     }else{
+        //         info.style.top="0";
+        //         meni.style.top="-80px";
+        //     }
+        //     lastScrollTop = scrollTop;
+        // })
+
+
+
+    </script>
+</body>
+
+</html>
