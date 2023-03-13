@@ -28,247 +28,6 @@
             text-align: center;
         }
 
-        @media only screen and (max-width: 620px ){
-            .info{
-                position: relative;
-                top: 0;
-                width: 100%;
-                height: 80px;
-                background: #8bc34a;
-                padding: 0 100px;
-                box-sizing: border-box;
-                display: flex;
-                align-items: center;
-                transition-duration: 0.5s;
-            }
-
-            header nav img{
-                position: relative;
-                transition: 0.6s;
-                padding-left: 20px;
-                height: 30px;
-            }
-            header nav ul{
-                display: none;
-            }
-            header nav .hamburger{
-                display: block;
-                padding-right: 20px;
-                color: #fff;
-                height: 25px;
-                
-            }
-            body .animacija{
-            width: 100%;
-            height: 500px;
-            padding-top: 0;
-            background-image: url("slika1.JPG");
-            animation-name: example;
-            animation-duration: 20s;
-            animation-iteration-count: infinite;
-            background-size: cover;
-
-            }
-            body .animacija .tekst {
-            position: relative;
-            padding-left: 20px;
-            transform: translate(-50%, -50%);
-            color: #fff;
-            font-size: 50px;
-            font-weight: 100;
-            }
-
-            body .prviSection{
-                display: flex;
-                justify-content: center;
-                padding-top: 0px;
-                margin-bottom: 50px;
-                width: 100%;
-            }
-
-            body .prviSection .first{
-                width: 100%;
-                float: left;
-                height: 300px;
-                background-color: #6B8E23;
-                margin-right: 0; 
-            }
-            body .prviSection .first p{
-                font-size: 45px;
-                color: #fff
-            }
-            body .prviSection .first button{
-                margin-left: 30px;
-                width: 150px;
-                font-size: 15px;
-                font-weight: 500;
-                color: #fff;
-                height: 35px;
-                background-color: #8bc34a;
-                border: #8bc34a;
-                transition: 0.3s;
-                cursor: pointer;
-            }
-            
-            body .prviSection .second {
-                display: none;
-            }
-
-            body .drugiSection{
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                padding-top: 0px;
-                margin-bottom: 30px;
-            }
-
-            body .drugiSection .sadrzajInfo{
-                padding: 30px;
-            }
-            body .drugiSection .info1{
-                width: 377px;
-                height: 320px;
-                background-color: white;
-                margin-right: 0px;
-                margin-bottom: 20px;
-            }
-            body .drugiSection .info2{
-                width: 377px;
-                height: 320px;
-                background-color: white;
-                margin-right: 0px;
-                margin-bottom: 20px;
-            }
-            body .drugiSection .info3{
-                width: 377px;
-                height: 320px;
-                background-color: white;
-                margin-right: 0px;
-                margin-bottom: 20px; 
-            }
-
-            body .treciSection{
-                background-color: white;
-                padding-bottom: 30px;
-            }
-            body .treciSection .naslovSection h1{
-                text-align: center;
-                font-size: 30px;
-                font-weight: 500;
-            }
-    
-            body .treciSection .kontentSection{
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                padding-top: 0px;
-                margin-bottom: 30px;
-            }
-            body .treciSection .kontentSection .element1{
-                border: 1px solid;
-                border-color: #E5E5E5;
-                margin-right: 0px;
-                margin-bottom: 20px;
-            }
-            body .treciSection .kontentSection .element2{
-                border: 1px solid;
-                border-color: #E5E5E5;
-                margin-right: 0px;
-                margin-bottom: 20px;
-            }
-            body .treciSection .kontentSection .element3{
-                border: 1px solid;
-                border-color: #E5E5E5;
-                margin-bottom: 20px;
-            }
-
-            body .treciSection .kontentSection .element1 img{
-                width: 300px;
-                height: 250px;
-                background-size: cover;
-                overflow: hidden;
-            }
-            body .treciSection .kontentSection .element2 img{
-                width: 300px;
-                height: 250px;
-                background-size: cover;
-                overflow: hidden;
-            }
-            body .treciSection .kontentSection .element3 img{
-                width: 300px;
-                height: 250px;
-                background-size: cover;
-                overflow: hidden;
-            }
-
-            body .treciSection .kontentSection button{
-                background-color:#2C4C3B;
-                color: white;
-                padding: 15px;
-                font-size: 15px;
-                font-weight: 500;
-                margin-left: 10px;
-                margin-bottom: 10px;
-                cursor: pointer;
-                border: none;
-            }
-    
-            body .treciSection .dugmeSection{
-                display: flex;
-                justify-content: center;
-                padding-top: 0px;
-                margin-bottom: 10px;
-            }
-
-            body footer{
-                height: 550px;
-                width: 100%;
-                background-color: #2C4C3B;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                padding-top: 0px;
-                margin-bottom: 0px;
-            }
-    
-            body footer .prava{
-                display: none;
-            }
-    
-            body footer  h2{
-                margin-top: 50px;
-    
-            }
-    
-            body footer .kontaktInfo p{
-                margin-top: 0px;
-                font-weight: 400;
-                font-size: 20px;
-            }
-    
-    
-            body footer .vremeInfo p{
-                margin-top: 20px;
-                font-weight: 400;
-                font-size: 20px;
-            }
-
-            body footer .prava1{
-                width: 300px;
-                margin-right: 0px;
-                color: #8bc34a;
-                display: block;
-            }
-
-            body footer .prava1 p{
-                margin-top: 40px;
-                font-weight: 400;
-                font-size: 20px;
-            }
-    
-    
-        }
-
         nav{
             position: fixed;
             left: 0;
@@ -648,8 +407,95 @@
             display: none;
         }
 
-        
-        
+        .homeSection{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .homeSection .homeNaslov{
+            display: flex;
+            justify-content: center;
+            margin-top: 150px;
+            margin-bottom: 50px;
+            color: #2C4C3B;
+        }
+        .homeSection .homeNaslov .homeNaslovNaslov{
+            width: 750px;
+            height: 400px;
+            margin-right: 40px;
+            background-color: #8bc34a;
+        }
+
+        .homeSection .homeNaslov .homeNaslovNaslov h1{
+            font-size: 65px;
+            margin-left: 70px;
+            margin-bottom: 70px;
+        }
+
+        .homeSection .homeNaslov .homeNaslovNaslov p{
+            font-size: 30px;
+            font-weight: 500;
+            margin-left: 70px;
+        }
+
+        .homeSection .homeNaslov .homeNaslovSlike{
+            width: 500px;
+            float: left;
+            height: 400px;
+            background-image: url("slika1.JPG");
+            animation-name: example1;
+            animation-duration: 30s;
+            animation-iteration-count: infinite;
+            background-size: cover;
+            overflow: hidden;
+        }
+
+        .homeSection .homeOpis{
+            width: 1290px;
+            height: 740px;
+            background-color: white;
+            margin-bottom: 50px;
+        }
+
+        .homeSection .homeOpis h1{
+            margin-left: 50px;
+            margin-right: 40px;
+            margin-top: 40px;
+            font-size: 40px;
+            line-height: 1.0;
+
+        }
+
+        .homeSection .homeOpis p{
+            margin-left: 50px;
+            margin-right: 40px;
+            margin-top: 40px;
+            font-size: 20px;
+            line-height: 1.5;
+        }
+        .homeSection .homeOpis .homeOpisSlike{
+            display: flex;
+            justify-content: center;
+        }
+
+        .homeSection .homeOpis .homeOpisSlike img{
+            width: 280px;
+            height: 200px;
+            margin-right: 15px;
+            margin-top: 25px;
+        }
+
+        .homeSection .homeOpis button{
+            margin-left: 60px;
+            margin-top: 40px;
+            width: 250px;
+            height: 50px;
+            background-color:#8bc34a;
+            color: #fff;
+            font-size: 20px;
+            font-weight: 500;
+            border: none;
+        }
 
         @keyframes example1 {
             0% {background-image: url("slika1.JPG");}
@@ -661,4 +507,245 @@
             73% {background-image: url("slika3.JPG");}
             87% {background-image: url("slika6.JPG");}
             100% {background-image: url("slika1.JPG");}
+        }
+
+        @media only screen and (max-width: 620px ){
+            .info{
+                position: relative;
+                top: 0;
+                width: 100%;
+                height: 80px;
+                background: #8bc34a;
+                padding: 0 100px;
+                box-sizing: border-box;
+                display: flex;
+                align-items: center;
+                transition-duration: 0.5s;
+            }
+
+            header nav img{
+                position: relative;
+                transition: 0.6s;
+                padding-left: 20px;
+                height: 30px;
+            }
+            header nav ul{
+                display: none;
+            }
+            header nav .hamburger{
+                display: block;
+                padding-right: 20px;
+                color: #fff;
+                height: 25px;
+                
+            }
+            body .animacija{
+            width: 100%;
+            height: 500px;
+            padding-top: 0;
+            background-image: url("slika1.JPG");
+            animation-name: example;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
+            background-size: cover;
+
+            }
+            body .animacija .tekst {
+            position: relative;
+            padding-left: 20px;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            font-size: 50px;
+            font-weight: 100;
+            }
+
+            body .prviSection{
+                display: flex;
+                justify-content: center;
+                padding-top: 0px;
+                margin-bottom: 50px;
+                width: 100%;
+            }
+
+            body .prviSection .first{
+                width: 100%;
+                float: left;
+                height: 300px;
+                background-color: #6B8E23;
+                margin-right: 0; 
+            }
+            body .prviSection .first p{
+                font-size: 45px;
+                color: #fff
+            }
+            body .prviSection .first button{
+                margin-left: 30px;
+                width: 150px;
+                font-size: 15px;
+                font-weight: 500;
+                color: #fff;
+                height: 35px;
+                background-color: #8bc34a;
+                border: #8bc34a;
+                transition: 0.3s;
+                cursor: pointer;
+            }
+            
+            body .prviSection .second {
+                display: none;
+            }
+
+            body .drugiSection{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-top: 0px;
+                margin-bottom: 30px;
+            }
+
+            body .drugiSection .sadrzajInfo{
+                padding: 30px;
+            }
+            body .drugiSection .info1{
+                width: 377px;
+                height: 320px;
+                background-color: white;
+                margin-right: 0px;
+                margin-bottom: 20px;
+            }
+            body .drugiSection .info2{
+                width: 377px;
+                height: 320px;
+                background-color: white;
+                margin-right: 0px;
+                margin-bottom: 20px;
+            }
+            body .drugiSection .info3{
+                width: 377px;
+                height: 320px;
+                background-color: white;
+                margin-right: 0px;
+                margin-bottom: 20px; 
+            }
+
+            body .treciSection{
+                background-color: white;
+                padding-bottom: 30px;
+            }
+            body .treciSection .naslovSection h1{
+                text-align: center;
+                font-size: 30px;
+                font-weight: 500;
+            }
+    
+            body .treciSection .kontentSection{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-top: 0px;
+                margin-bottom: 30px;
+            }
+            body .treciSection .kontentSection .element1{
+                border: 1px solid;
+                border-color: #E5E5E5;
+                margin-right: 0px;
+                margin-bottom: 20px;
+            }
+            body .treciSection .kontentSection .element2{
+                border: 1px solid;
+                border-color: #E5E5E5;
+                margin-right: 0px;
+                margin-bottom: 20px;
+            }
+            body .treciSection .kontentSection .element3{
+                border: 1px solid;
+                border-color: #E5E5E5;
+                margin-bottom: 20px;
+            }
+
+            body .treciSection .kontentSection .element1 img{
+                width: 300px;
+                height: 250px;
+                background-size: cover;
+                overflow: hidden;
+            }
+            body .treciSection .kontentSection .element2 img{
+                width: 300px;
+                height: 250px;
+                background-size: cover;
+                overflow: hidden;
+            }
+            body .treciSection .kontentSection .element3 img{
+                width: 300px;
+                height: 250px;
+                background-size: cover;
+                overflow: hidden;
+            }
+
+            body .treciSection .kontentSection button{
+                background-color:#2C4C3B;
+                color: white;
+                padding: 15px;
+                font-size: 15px;
+                font-weight: 500;
+                margin-left: 10px;
+                margin-bottom: 10px;
+                cursor: pointer;
+                border: none;
+            }
+    
+            body .treciSection .dugmeSection{
+                display: flex;
+                justify-content: center;
+                padding-top: 0px;
+                margin-bottom: 10px;
+            }
+
+            body footer{
+                height: 550px;
+                width: 100%;
+                background-color: #2C4C3B;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-top: 0px;
+                margin-bottom: 0px;
+            }
+    
+            body footer .prava{
+                display: none;
+            }
+    
+            body footer  h2{
+                margin-top: 50px;
+    
+            }
+    
+            body footer .kontaktInfo p{
+                margin-top: 0px;
+                font-weight: 400;
+                font-size: 20px;
+            }
+    
+    
+            body footer .vremeInfo p{
+                margin-top: 20px;
+                font-weight: 400;
+                font-size: 20px;
+            }
+
+            body footer .prava1{
+                width: 300px;
+                margin-right: 0px;
+                color: #8bc34a;
+                display: block;
+            }
+
+            body footer .prava1 p{
+                margin-top: 40px;
+                font-weight: 400;
+                font-size: 20px;
+            }
+    
+    
         }

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;700;800&display=swap" rel="stylesheet">
+    <title>MikroMakro</title>
+    <link rel="icon" type="image/x-icon" href="maliLogo.png">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/2a1ef8eee6.js" crossorigin="anonymous"></script>
+</head>
+<header>
+    <div class="info">
+        <h4 class="infoo">+381644623261 | Isporuka: Beograd  | zakula99@gmail.com</h4>
+    </div>
+    <nav class="">
+        <img src="logo.png">
+        <a href=""><img class="hamburger" src="hamburger.png"></a>
+        <ul>
+            <li><a href="#">MIKRO MAKRO</a></li>
+            <li><a href="#">PROIZVODI</a></li>
+            <li><a href="#">SARADNJA</a></li>
+            <li><a href="#">KONTAKT</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <section class="homeSection">
+        <div class="homeNaslov">
+            <div class="homeNaslovNaslov">
+                <h1>URBANI FARMERI - NAŠA PRIČA</h1>
+                <p>Uzgoj mikrobilja</p>
+            </div>
+            <div class="homeNaslovSlike">
+                
+                
+            </div>
+        </div>
+        <div class="homeOpis">
+            <h1>
+                MI SMO LOKALNI, MALI, PORODIČNI BIZNIS I POSTOJIMO OD 2016. ORIGINALNO UZGAJAMO JEDINSTVENO MIKROBILJE U URBANOJ SREDINI I NALAZIMO NAČINE DA BUDEMO NA VAŠOJ TRPEZI.
+            </h1>
+            <p>
+                Priča o Urbanim Farmerima je priča o porodici, priča o ljubavi prema zdravoj ishrani i priča koja je počela begom iz korporativne stolice u malu gradsku farmu čiji je početak bio slavan – 
+                počeli smo iz trpezarije našeg doma! Kako je interesovanje za naše proizvode raslo, tako je trpezarija postajala sve manja, pa smo farmu preselili, novi prostor opremili prema HACCP 
+                standardizaciji i učinili sve da naše biljke srećno rastu, a vi ih konzumirate potpuno bezbedno. <br><br>
+                Podrškom našeg poslovanja i kupovinom naših proizvoda podržavate razvoj lokalnog malog biznisa i samim tim podržavate snove ljudi poput vas.
+            </p>
+            <div class="homeOpisSlike">
+                <img src="slika.JPG" alt="">
+                <img src="slika1.JPG" alt="">
+                <img src="slika2.JPG" alt="">
+                <img src="slika3.JPG" alt="">
+            </div>
+            <button>
+                NARUČITE NAŠE PROIZVODE
+            </button>
+        </div>
+    </section>
+
+
+
+
+
+
+    <footer>
+        <div class="prava">
+            <p>Mikor Makro 2023.  © Sva prava zadržana.</p>
+        </div>
+        <div class="kontaktInfo">
+            <h2>KONTAKT</h2>
+            <p>+381 64 462 32 61 Beograd</p>
+            <p>mikromakro@gmail.com www.mikromakro.com</p>
+        </div>
+        <div class="vremeInfo">
+            <h2>RADNO VREME</h2>
+            <p>Ponedeljak - Subota: 9.00 - 17.00h Nedeljom ne radimo</p>
+            <div class="linkovi">
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+
+        <div class="prava1">
+            <p>Mikor Makro 2023.  © Sva prava zadržana.</p>
+        </div>
+        
+
+    </footer>
+
+
+    
+    
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var meni = document.querySelector("nav");
+            meni.classList.toggle("sticky", window.scrollY > 0);
+        })
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}
+
+            slides[slideIndex-1].style.display = "block";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+
+
+    </script>
+</body>
+
+</html>
