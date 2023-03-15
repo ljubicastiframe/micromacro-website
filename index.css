@@ -497,6 +497,82 @@
             border: none;
         }
 
+        .proizvodiSection{
+            display: flex;
+            flex-direction: column;
+            margin-top: 150px;
+        }
+
+        .proizvodiSection .proizvodiNaslov{
+            text-align: center;
+            width: 100%;
+            height: 200px;
+        }
+
+        .proizvodiSection .proizvodiNaslov h1{
+            font-weight: 600;
+            font-size: 40px;
+        }
+
+        .proizvodiSection .proizvodiNaslov p{
+            font-size: 25px;
+            margin-top: -10px;
+        }
+
+        .proizvodiSection .proizvodiLista1{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+        .proizvodiSection .proizvodiLista2{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+        .proizvodiSection .proizvodiLista3{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+        .proizvodiSection .element{
+            border: 1px solid;
+            border-color: #B5B5B5;
+            margin-right: 25px;
+            margin-left: 25px;
+        }
+
+        .proizvodiSection .element .n{
+            font-weight: 300;
+            margin-left: 10px;
+        }
+        .proizvodiSection .element h1{
+            font-weight: 500;
+            margin-left: 10px;
+        }
+        .proizvodiSection .element .d{
+            font-size: 20px;
+            margin-left: 10px;
+            color: #8bc34a;
+        }
+        .proizvodiSection .element img{
+            width: 377px;
+            height: 320px;
+            background-size: cover;
+            overflow: hidden;
+        }
+        .proizvodiSection button{
+            background-color:#2C4C3B;
+            color: white;
+            padding: 10px;
+            font-size: 15px;
+            font-weight: 500;
+            margin-left: 10px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            border: none;
+        }
+
+
         @keyframes example1 {
             0% {background-image: url("slika1.JPG");}
             10% {background-image: url("slika5.JPG");}
