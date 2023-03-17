@@ -82,6 +82,13 @@
         nav ul li a:hover{
             color: #8FBC8F;
         }
+        nav ul li img{
+            width: 25px;
+            height: 25px;
+            padding-left: 20px;
+            color: #8FBC8F;
+            
+        }
 
         .hamburger{
             display: none;
@@ -570,6 +577,83 @@
             margin-bottom: 10px;
             cursor: pointer;
             border: none;
+        }
+
+        .proizvodiDugmiciStranice{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+        .proizvodiDugmiciStranice .proizvodiDugme1{
+            width: 50px;
+            height: 50px;
+            background-color: #2C4C3B;
+            color: #fff;
+            text-align: center;
+        }
+        .proizvodiDugmiciStranice .proizvodiDugme2{
+            width: 50px;
+            height: 50px;
+            background-color: #8FBC8F;
+            text-align: center;
+        }
+        
+        .proizvodiDugmiciStranice .proizvodiDugme3{
+            width: 50px;
+            height: 50px;
+            background-color: #8FBC8F;
+            text-align: center;
+        }
+        .proizvodiDugmiciStranice a{
+            text-decoration: none;
+            color: #fff;
+        }
+        .proizvodiDugmiciStranice .proizvodiDugme2 :hover{
+            color: #2C4C3B;
+            cursor: pointer;
+        }
+        .proizvodiDugmiciStranice .proizvodiDugme3 :hover{
+            color: #2C4C3B;
+            cursor: pointer;
+        }
+
+        .proizvodi2DugmiciStranice{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+        .proizvodi2DugmiciStranice .proizvodi2Dugme1{
+            width: 50px;
+            height: 50px;
+            background-color: #8FBC8F;
+            color: #fff;
+            text-align: center;
+        }
+        .proizvodi2DugmiciStranice .proizvodi2Dugme2{
+            width: 50px;
+            height: 50px;
+            background-color: #2C4C3B;
+            color: #fff;
+            text-align: center;
+        }
+        
+        .proizvodi2DugmiciStranice .proizvodi2Dugme3{
+            width: 50px;
+            height: 50px;
+            background-color: #8FBC8F;
+            text-align: center;
+        }
+        .proizvodi2DugmiciStranice a{
+            text-decoration: none;
+            color: #fff;
+        }
+        .proizvodi2DugmiciStranice .proizvodi2Dugme1 :hover{
+            color: #2C4C3B;
+            cursor: pointer;
+        }
+        .proizvodi2DugmiciStranice .proizvodi2Dugme3 :hover{
+            color: #2C4C3B;
+            cursor: pointer;
         }
 
 
