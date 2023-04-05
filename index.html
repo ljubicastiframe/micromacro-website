@@ -129,45 +129,8 @@
 
     </footer>
 
-
     
-    
-    <script type="text/javascript">
-        window.addEventListener("scroll", function(){
-            var meni = document.querySelector("nav");
-            meni.classList.toggle("sticky", window.scrollY > 0);
-        })
-
-        function showSlides() {
-            let i;
-            let slides = document.getElementsByClassName("mySlides");
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";  
-            }
-            slideIndex++;
-            if (slideIndex > slides.length) {slideIndex = 1}
-
-            slides[slideIndex-1].style.display = "block";
-            setTimeout(showSlides, 2000); // Change image every 2 seconds
-        }
-        // var lastScrollTop = 0;
-        // info = document.getElementsByClassName("info");
-        // meni = document.getElementsByClassName("meni");
-        // wondow.addEventListener("scroll", function(){
-        //     var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        //     if(scrollTop > lastScrollTop){
-        //         info.style.top="-80px";
-        //         meni.style.top="0px";
-        //     }else{
-        //         info.style.top="0";
-        //         meni.style.top="-80px";
-        //     }
-        //     lastScrollTop = scrollTop;
-        // })
-
-
-
-    </script>
+    <script src="main.js"></script>
 </body>
 
 </html>
